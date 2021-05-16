@@ -1,0 +1,76 @@
+main{
+	width: 1020px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+@media (min-width: 0px) and (max-width: 1022px){
+    main{
+        width: 100vw;
+    }
+}
+.about_project{
+	display: flex;
+	justify-content: space-around;
+}
+.about_project h3{
+	font-family: 'Rubik', sans-serif;
+	font-size: 33px;
+}
+.about_project p{
+	font-family: 'Rubik', sans-serif;
+	font-size: 23px;
+	font-weight: 300;
+	width: 520px;
+}
+.slogan{
+	padding-top: 30px;
+}
+.slogan h3{
+	font-family: 'Rubik', sans-serif;
+	font-size: 55px;
+	line-height: 3px;
+}
+.slogan h3:nth-child(1){
+	color: #686666;
+	text-align: left;
+	padding-left: 70px;
+}
+.slogan h3:nth-child(2){
+	color: #6D854E;
+	text-align: center;
+}
+.slogan h3:nth-child(3){
+	color: #C0B912;
+	text-align: right;
+	padding-right: 70px;
+}
+.ontology{
+	margin-top: 70px;
+	background: lightgrey; 
+}
+.ontology h3{
+	font-family: 'Rubik', sans-serif;
+	font-size: 30px;
+	opacity: 0.8;
+	padding-left: 70px;
+}
+.ontology_line{
+	border: none;
+	background-color: black;
+	color: black;
+	height: 5px;
+}
+.famous_human h3{
+	font-family: 'Rubik', sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	margin-top: -1px;
+	font-weight: 500;
+}
+.famous_human p{
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	width: 165px;
+
+	font-weight: 300;
+}

@@ -1,0 +1,16 @@
+footer{
+	background-image: url(../img/footer.png);
+	display: flex;
+	height: 40vh;
+	margin-top: 100px;
+	justify-content: space-around;
+	background-size: cover;
+}
+footer h3{
+	font-family: 'Rubik', sans-serif;
+	font-size: 27px;
+	color: #6D854E;
+}
+.footer_social_networks a{
+	margin-left: 25px;
+}
